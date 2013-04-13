@@ -27,9 +27,12 @@ set number
 " Enable syntax highlighting
 syntax on
 " Highlight current line
-set cursorline
+" set cursorline
 " Make tabs as wide as two spaces
-set tabstop=2
+set tabstop=4
+set softtabstop=4
+" use space replace tab
+" set expandtab
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
@@ -49,10 +52,18 @@ set noerrorbells
 set nostartofline
 " Show the cursor position
 set ruler
+" search ignore case
+set ic
+" show at line and text
+set ru
 " Don’t show the intro message when starting vim
 set shortmess=atI
 " Show the current mode
 set showmode
+" smartindent
+set smartindent
+" history count
+set history=100
 " Show the filename in the window titlebar
 set title
 if exists("&relativenumber")
