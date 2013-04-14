@@ -34,7 +34,8 @@ set softtabstop=4
 " use space replace tab
 " set expandtab
 " Show “invisible” characters
-set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+" set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set lcs=tab:▸\ ,trail:·
 set list
 " Highlight searches
 set hlsearch
