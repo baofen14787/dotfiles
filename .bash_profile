@@ -27,3 +27,8 @@ export LANG="en_US"
 # Add tab completion for `defaults read|write NSGlobalDomain`
 # You could just use `-g` instead, but I like being explicit
 complete -W "NSGlobalDomain" defaults
+
+# Google Compute Engine
+# gcutil Tool
+# https://developers.google.com/compute/docs/gcutil/
+export PATH=${PATH}:$HOME/gcutil-1.8.4
