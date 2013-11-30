@@ -125,6 +125,8 @@ alias gm="git commit -m"
 alias ga="git add"
 alias gmv="git mv"
 alias grm="git rm"
+alias gl="git log"
+alias gg="git lg"
 
 # File size
 alias fs="stat -f \"%z bytes\""
