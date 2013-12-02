@@ -19,7 +19,9 @@ curl -L https://get.rvm.io | bash -s stable --ruby
 # you need the code CLI tools YOU FOOL.
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
-
+# nvm
+curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+# . ~/.nvm/nvm.sh
 
 # https://github.com/rupa/z
 # z, oh how i love you

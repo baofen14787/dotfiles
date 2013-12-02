@@ -12,7 +12,7 @@ unset file
 # source ~/.rvm/scripts/rvm
 
 # nvm
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+# curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 # . ~/.nvm/nvm.sh
 
 # Case-insensitive globbing (used in pathname expansion)
