@@ -32,3 +32,7 @@ complete -W "NSGlobalDomain" defaults
 # gcutil Tool
 # https://developers.google.com/compute/docs/gcutil/
 export PATH=${PATH}:$HOME/gcutil-1.8.4
+
+# git
+git config --global user.name "Isken Huang"
+git config --global user.email "kensheep@gmail.com"
