@@ -3,7 +3,7 @@
 
 # https://github.com/jamiew/git-friendly
 # the `push` command which copies the github compare URL to my clipboard is heaven
-sudo bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
+# sudo bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
 
 # https://rvm.io
 # rvm for the rubiess
@@ -25,9 +25,9 @@ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # https://github.com/rupa/z
 # z, oh how i love you
-mkdir -p ~/code/z
-curl https://raw.github.com/rupa/z/master/z.sh > ~/code/z/z.sh
-chmod +x ~/code/z/z.sh
+# mkdir -p ~/code/z
+# curl https://raw.github.com/rupa/z/master/z.sh > ~/code/z/z.sh
+# chmod +x ~/code/z/z.sh
 
 # add this to the bash_profile file if it aint there.
 #   . ~/code/z/z.sh
