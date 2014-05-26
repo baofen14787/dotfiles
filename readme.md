@@ -4,16 +4,16 @@ This repo contains my personal dotfiles and are heavily based on [Addy](https://
 
 ## Some differences
 
-* Browserstack shortcuts which will launch the service and automatically load up a specific OS/Browser pair with your URL. e.g `win7ie8 "http://google.com"`, `ipad3 "http://google.com"`, `ipad3ios6 "http://google.com"`,`androidnexus "http://google.com"` etc. If you would prefer to work locally similarly use `ipad3 "http://localhost:3000"`
-* Dropbox via the command-line support `dropbox upload {localFile} {remoteFile}`, `dropbox download {remoteFile} {localFile}`, `dropbox list` etc.
+* ~~Browserstack shortcuts which will launch the service and automatically load up a specific OS/Browser pair with your URL. e.g `win7ie8 "http://google.com"`, `ipad3 "http://google.com"`, `ipad3ios6 "http://google.com"`,`androidnexus "http://google.com"` etc. If you would prefer to work locally similarly use `ipad3 "http://localhost:3000"`~~
+* ~~Dropbox via the command-line support `dropbox upload {localFile} {remoteFile}`, `dropbox download {remoteFile} {localFile}`, `dropbox list` etc.~~
 * Browser and npm aliases e.g `chrome`, `safari`, `opera`, `firefox`, `chromium` and others.
 * Launch all browsers with a specific URL `browsers "http://google.com"`
-* My Sublime Text build files (Grunt, Yeoman, r.js, SASS, Less and a few others included)
-* [@cowboy](http://github.com/cowboy)'s GitHub Pull Request Helper
+* ~~My Sublime Text build files (Grunt, Yeoman, r.js, SASS, Less and a few others included)~~
+* ~~[@cowboy](http://github.com/cowboy)'s GitHub Pull Request Helper~~
 
 ## install the neccessary apps
 
-My basic setup is captured in `install-deps.sh` which adds homebrew, z, nave, etc.
+My basic setup is captured in `install-deps.sh` which adds homebrew, nvm etc.
 
 ## private config
 
@@ -77,7 +77,7 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 ## overview of files
 
 ####  Automatic config
-* `.ackrc` - for ack (better than grep)
+* ~~`.ackrc` - for ack (better than grep)~~
 * `.vimrc`, `.vim` - vim config, obv.
 
 #### shell environement
