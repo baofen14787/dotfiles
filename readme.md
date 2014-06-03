@@ -10,6 +10,7 @@ This repo contains my personal dotfiles and are heavily based on [Addy](https://
 * Launch all browsers with a specific URL `browsers "http://google.com"`
 * ~~My Sublime Text build files (Grunt, Yeoman, r.js, SASS, Less and a few others included)~~
 * ~~[@cowboy](http://github.com/cowboy)'s GitHub Pull Request Helper~~
+* `ptt` quick connect PTT.cc(Taiwan famous forum)
 
 ## install the neccessary apps
 
