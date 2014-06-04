@@ -42,7 +42,7 @@ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 # my magic photobooth symlink -> dropbox. I love it.
 # first move Photo Booth folder out of Pictures and into dropbox/public
 # then:
-ln -s ~/Dropbox/Public/Photo\ Booth/ ~/Pictures/Photo\ Booth
+# ln -s ~/Dropbox/Public/Photo\ Booth/ ~/Pictures/Photo\ Booth
 # now you can record photobooth videos quickly and they upload to dropbox DURING RECORDING
 # then you grab public URL and send off your video message in a heartbeat.
 
