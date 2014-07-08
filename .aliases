@@ -159,3 +159,5 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 # PTT
 alias ptt="ssh bbsu@ptt.cc"
 
+# GoAgent
+alias goagent="python ~/projects/goagent/local/proxy.py"
