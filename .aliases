@@ -162,6 +162,15 @@ alias ptt="ssh bbsu@ptt.cc"
 # GoAgent
 alias goagent="python ~/projects/goagent/local/proxy.py"
 
-# ali git
-alias aligit="git config --global user.name '斯肯'&&git config --global user.email 'taicheng.htc@alibaba-inc.com'"
+# alibaba git config
+alias aligit="git config --global user.name '斯肯' && git config --global user.email 'taicheng.htc@alibaba-inc.com'"
 
+
+# apache config
+alias apacheconfig="sudo vim /etc/apache2/httpd.conf"
+alias apachestart="sudo apachectl start"
+alias apachestop="sudo apachectl stop"
+alias apacherestart="sudo apachectl restart"
+
+# hosts
+alias hosts="sudo vim /etc/hosts"
