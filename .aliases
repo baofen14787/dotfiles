@@ -174,3 +174,6 @@ alias apacherestart="sudo apachectl restart"
 
 # hosts
 alias hosts="sudo vim /etc/hosts"
+
+# simulator
+alias iossimulator="open /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app"
