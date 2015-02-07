@@ -12,7 +12,7 @@ unset file
 # source ~/.rvm/scripts/rvm
 
 # nvm
-. ~/.nvm/nvm.sh
+#. ~/.nvm/nvm.sh
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
@@ -34,5 +34,5 @@ complete -W "NSGlobalDomain" defaults
 export PATH=${PATH}:$HOME/gcutil-1.8.4
 
 # git
-git config --global user.name "Isken Huang"
-git config --global user.email "kensheep@gmail.com"
+git config --global user.name "baofen14787"
+git config --global user.email "baofen14787@gmail.com"
